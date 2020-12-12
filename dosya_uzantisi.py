@@ -1,6 +1,5 @@
 import os,sys
 folder = "C:\\Users\\hhson\\OneDrive\\Masaüstü\\deneme"
-#folder değişkenine, değiştirmek istediğiniz dosyaların bulunduğu klasör yolunu kopyalayın
 for filename in os.listdir(folder):
        
        infilename = os.path.join(folder,filename)
